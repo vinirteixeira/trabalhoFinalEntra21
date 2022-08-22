@@ -8,32 +8,31 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\COMPUTADOR\\.nuget\\packages\\": {},
-    "D:\\Visual Studio Code\\Tools\\NuGetPackages": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\COMPUTADOR\\Documents\\Visual Studio 2022\\Projetos\\trabalhoFinalEntra21\\app_hortifruti\\app_hortifruti.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Documents\\github\\trabalhoFinalEntra21\\app_hortifruti\\app_hortifruti.csproj",
       "projectName": "app_hortifruti",
-      "projectPath": "C:\\Users\\COMPUTADOR\\Documents\\Visual Studio 2022\\Projetos\\trabalhoFinalEntra21\\app_hortifruti\\app_hortifruti.csproj",
-      "packagesPath": "C:\\Users\\COMPUTADOR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\COMPUTADOR\\Documents\\Visual Studio 2022\\Projetos\\trabalhoFinalEntra21\\app_hortifruti\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\Documents\\github\\trabalhoFinalEntra21\\app_hortifruti\\app_hortifruti.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\Documents\\github\\trabalhoFinalEntra21\\app_hortifruti\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Visual Studio Code\\Tools\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\COMPUTADOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -57,8 +56,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -70,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
