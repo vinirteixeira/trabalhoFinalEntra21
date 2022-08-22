@@ -37,8 +37,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -91,8 +89,6 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.checkedListBox1);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.comboBox3);
-            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.comboBox2);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.pictureBox1);
@@ -153,29 +149,6 @@
             this.label6.TabIndex = 22;
             this.label6.Text = "Época de cultivo:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Convencional",
-            "Orgânico",
-            "Protegido",
-            "Hidropônico"});
-            this.comboBox3.Location = new System.Drawing.Point(248, 70);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(189, 29);
-            this.comboBox3.TabIndex = 21;
-            this.comboBox3.Text = "-Escolha uma opção-";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(115, 78);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 21);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Tipo de cultivo:";
             // 
             // comboBox2
             // 
@@ -313,8 +286,6 @@
         private PictureBox pictureBox1;
         private TextBox textBox1;
         private Label label3;
-        private ComboBox comboBox3;
-        private Label label5;
         private ComboBox comboBox2;
         private RadioButton radioButton5;
         private RadioButton radioButton6;

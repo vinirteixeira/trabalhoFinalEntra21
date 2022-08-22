@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\COMPUTADOR\\source\\repos\\app_hortifruti\\app_hortifruti\\app_hortifruti.csproj",
+      "projectUniqueName": "C:\\Users\\COMPUTADOR\\Documents\\Visual Studio 2022\\Projetos\\trabalhoFinalEntra21\\app_hortifruti\\app_hortifruti.csproj",
       "projectName": "app_hortifruti",
-      "projectPath": "C:\\Users\\COMPUTADOR\\source\\repos\\app_hortifruti\\app_hortifruti\\app_hortifruti.csproj",
+      "projectPath": "C:\\Users\\COMPUTADOR\\Documents\\Visual Studio 2022\\Projetos\\trabalhoFinalEntra21\\app_hortifruti\\app_hortifruti.csproj",
       "packagesPath": "C:\\Users\\COMPUTADOR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\COMPUTADOR\\source\\repos\\app_hortifruti\\app_hortifruti\\obj\\",
+      "outputPath": "C:\\Users\\COMPUTADOR\\Documents\\Visual Studio 2022\\Projetos\\trabalhoFinalEntra21\\app_hortifruti\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio Code\\Tools\\NuGetPackages"
