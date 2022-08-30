@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.0
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Tempo de geração: 30-Ago-2022 às 20:51
+- Versão do servidor: 10.4.24-MariaDB
+- versão do PHP: 8.1.6
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="hortifruti" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="produto">
+                CREATE TABLE `produto` (
+                  `idProduto` int(4) NOT NULL AUTO_INCREMENT,
+                  `nome` tinytext NOT NULL,
+                  `categoria` tinytext NOT NULL,
+                  `epocaCultivo` set(&#039;All&#039;,&#039;1&#039;,&#039;2&#039;,&#039;3&#039;,&#039;4&#039;,&#039;5&#039;,&#039;6&#039;,&#039;7&#039;,&#039;8&#039;,&#039;9&#039;,&#039;10&#039;,&#039;11&#039;,&#039;12&#039;) NOT NULL,
+                  `descricao` tinytext NOT NULL,
+                  `img` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL CHECK (json_valid(`img`)),
+                  PRIMARY KEY (`idProduto`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="produtor">
+                CREATE TABLE `produtor` (
+                  `idProdutor` varchar(10) NOT NULL,
+                  `nome` tinytext NOT NULL,
+                  `sobrenome` tinytext NOT NULL,
+                  `DDD` bit(2) NOT NULL,
+                  `celular` char(10) NOT NULL,
+                  `whatsApp` tinyint(1) NOT NULL,
+                  `telFixo` char(9) DEFAULT NULL,
+                  `email` char(100) DEFAULT NULL,
+                  `CEP` char(10) NOT NULL,
+                  `endereco` char(100) NOT NULL,
+                  `cidade` char(25) NOT NULL,
+                  `UF` tinytext NOT NULL,
+                  `entregaProduto` tinyint(1) NOT NULL,
+                  `dataCadastro` date NOT NULL,
+                  `status` tinyint(1) NOT NULL,
+                  PRIMARY KEY (`idProdutor`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="produto_produtor">
+                CREATE TABLE `produto_produtor` (
+                  `idEdit` int(4) NOT NULL,
+                  `idProduto` int(4) NOT NULL COMMENT &#039;Estrangeira&#039;,
+                  `idProdutor` varchar(10) NOT NULL COMMENT &#039;Estrangeira&#039;,
+                  `tipoCultivo` tinytext NOT NULL,
+                  PRIMARY KEY (`idEdit`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Banco de dados: 'hortifruti'
+    -->
+    <database name="hortifruti">
+        <!-- Tabela produto -->
+        <!-- Tabela produtor -->
+        <!-- Tabela produto_produtor -->
+    </database>
+</pma_xml_export>
